@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid bg-body-tertiary bg-black">
+        <div class="row pt-2">
+            <div class="col-sm-1 ">
+                <img src="img/logo.png" alt="" height="">
+            </div>
+            <div class="col-sm-2 text-center">Shivam Dubey</div>
+            <div class="col-sm-5">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"> Shivam Dubey & list</div>
+            <div class="col-sm-1"> Return <br> & lists</div>
+             <a href="home.html"><div class="col-sm-1 text-dark"><i class="fa-solid fa-cart-shopping fs-1"></i><span
+                    style="padding-top: 2vh;" href="home.html">Home</span></div></a>
+        </div>
+        <!-- navbar section start -->
+        <div class="row">
+            <div class="col-sm-12 px-5 bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">All</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Male Fashion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Sell</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Gift Card</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">UPI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Buy Again</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Today deals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Coupons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3" aria-current="page" href="#">Gift Ideas</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- navbar section end -->
+        <!-- body section start -->
+        <div class="row p-4 ">
+            <div class="col-sm-9 bg-white">
+                <h1>Shopping Cart</h1>
+                <a href="">Deselect all items</a>
+                <p style="padding-top: 45px; padding-right: 20px; text-align: end;">price</p>
+                <hr>
+                <div class="row">
+                    <div>
+                        <input type="checkbox" class="form-check-input border-4-dark" id="exampleCheck1">
+                    </div>
+                    <div class="col-sm-3 text-end pe-5">
+                        <img src="img/3.jpg" alt="" width="270" style="text-align: ;">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4>French connection</h4>
+                        <p>in stock <br> Eligible for free Shopping </p>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">this will be a gift</label>
+                        </div>
+                        QTY:
+                        <!-- <input type="number" style="width: 50px;"> -->
+                        <select name="" id="qty" >
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="bg-danger text-center text-light" style="width: 100px;">60% off</p>
+                        <p class="fw-bold">&#8377; <span id="pp">1838.00</span></p>
+                    </div>
+                </div>
+                <hr>
+                <p style="text-align: end;">sum total(<span id="item">1 items</span>):<b id="tp"> &#8377; 1838.00 </b>
+                </p>
+    
+            </div>
+            <div class="col-sm-3 ps-5 ">
+                <div class="bg-white">
+                    <input type="checkbox" class="form-check-input border-4-dark" id="exampleCheck1">
+                    <p>your order is Eligble for Free Delivery . Choose Free Delivery options at <br> checkout</p>
+                    <p>sum total(<span id="item1">1 items</span>): &#8377;<b id="tp1">  1838.00 </b></p>
+                    <form style="padding-left: 15%;">
+                        <button class="btn btn-outline-success px-5">Proceed to pay</button>
+                    </form>
+                    <p class="pt-3"> EMI availble </p>
+                </div>
+            </div>
+        </div>
+           <!-- footer section start -->
+           <div class="row bg-dark text-light mt-5 rounded-1">
+            <div class="col-sm-11 mx-auto mt-5">
+              <div class="row  border-bottom border-dark border-2 pb-5">
+                <div class="col-sm-4">
+                  <h4> <i class="fa-solid fa-location-dot fs-3 me-2"></i>Address></h4>
+                  <p class="ps-4">Mumbai</p>
+                </div>
+                <div class="col-sm-4">
+                  <h4> <i class="fa-solid fa-phone"></i>Contact</h4>
+                  <p>+91 0112202255 <br>
+                    +91 0220550555</p>
+                </div>
+                <div class="col-sm-4">
+                  <h4><i class="fa-regular fa-envelope"></i>Email</h4>
+                  <p>malefashion@gmail.com</p>
+                </div>
+              </div>
+              <div class="row py-4">
+                <div class="col-sm-4">
+                  <h3>Male Fashion</h3>
+                  <hr>
+                  <p>Find you best</p>
+                </div>
+                <div class="col-sm-4 text-light p-4 ">
+                  <h4> Link</h4>
+                  <div class="underline"></div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <ul style="list-style-type: none;">
+                        <li><a href="" class="text-light">Home</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6">
+                      <ul style="list-style-type: none;">
+                        <li><a href="" class="text-light">About</a></li>
+      
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 p-4">
+                  <h4>Join us </h4>
+                  <div class="underline"></div>
+                  <p class="mt-2 fw-semibold"><small>Don’t miss Join
+                    </small></p>
+                  <div class="position-relative">
+                    <input type=" text" class="form-control  py-3 rounded-1" placeholder="email">
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+          <div class="row mt-3 mb-2">
+            <div class="col-sm-12">
+              <div class="row py-4">
+                <div class="col-sm-12 text-dark text-center">
+                  <p class="border border-1 border-light rounded-4 border-dark">
+                    © Copyright 2024 Designed & Developed By | Shivam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer section end -->
+                 
+    </div>
+</body>
+</html>
