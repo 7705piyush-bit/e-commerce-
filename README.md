@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Male Fashion - Next.js E-commerce with SSR & Recommendations
 
 A modern e-commerce application built with Next.js 14, featuring Server-Side Rendering (SSR) for optimal SEO performance and a sophisticated product recommendation engine using collaborative filtering.
@@ -202,3 +203,6 @@ This project is licensed under the MIT License.
 ---
 
 Built with ❤️ using Next.js and modern web technologies.
+=======
+# e-commerce-
+>>>>>>> e82c4bc688d33ee2ef976cea5a19b2d1a37a7756
